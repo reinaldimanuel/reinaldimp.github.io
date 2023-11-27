@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Landing Page</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+        <style>
+
+         .pp{
+            border-radius: 100%;
+            width: 250px;
+            height: 250px;
+            border-color: #2F4F4F;
+            border-style: solid;
+            border-width: 5px;
+            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+
+        .button{
+            border: none;
+            border-radius: 30px;
+            width: auto;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 50px;
+            background-color: #2F4F4F;
+            color: white;
+            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        </style>
+	</head>
+	<body class="font-sans">
+
+        <!-- Menubar -->
+		<nav class="bg-gray-800 text-white p-4">
+			<div class="container mx-auto flex justify-between items-center">
+				<div class="flex items-center">
+					<span class="font-semibold text-xl">Portfolio</span>
+				</div>
+				<div>
+					<a
+						href="#aboutme"
+						class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300"
+						>About Me</a
+					>
+					<a
+						href="#portfolio"
+						class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300"
+						>Portfolio</a
+					>
+					<a
+						href="#certificates"
+						class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300"
+						>Certificates</a
+					>
+					<a
+						href="#contactus"
+						class="text-white px-4 py-2 hover:bg-gray-700 rounded transition duration-300"
+						>Contact Us</a
+					>
+				</div>
+			</div>
+		</nav>
+
+		<!-- About Me -->
+		<section id="aboutme" class="py-12 px-4">
+            <img src="assets/image/pp.jpg" class="pp" alt="profile picture">
+			<div class="max-w-4xl mx-auto">
+				<h2 class="text-3xl font-bold mb-4">About Me</h2>
+				<p class="text-lg">Hello, I'm Reinaldi. Currently studying at Pelita Harapan University exploring codings on Information Systems major. Welcome to my Portfolio page!</p>
+			</div>
+            <button class="button flex justify-center">Download CV</button>
+		</section>
+
+		<!-- Portfolio -->
+		<section id="portfolio" class="py-12 px-4 bg-gray-100">
+			<div class="max-w-4xl mx-auto">
+				<h2 class="text-3xl font-bold mb-4">Portfolio</h2>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+					<div class="shadow-lg p-4 bg-white">
+						<img
+							src="https://source.unsplash.com/500x330/?random"
+							alt="Project 1"
+							class="mb-3"
+						/>
+						<p>Deskripsi Project 1</p>
+					</div>
+                    <div class="shadow-lg p-4 bg-white">
+						<img
+							src="https://source.unsplash.com/500x330/?random"
+							alt="Project 2"
+							class="mb-3"
+						/>
+						<p>Deskripsi Project 2</p>
+					</div>
+                    <div class="shadow-lg p-4 bg-white">
+						<img
+							src="https://source.unsplash.com/500x330/?random"
+							alt="Project 3"
+							class="mb-3"
+						/>
+						<p>Deskripsi Project 3</p>
+					</div>
+					<!-- Lebih banyak item portofolio di sini -->
+				</div>
+			</div>
+		</section>
+
+		<!-- Certificates -->
+		<section id="certificates" class="py-12 px-4">
+			<div class="max-w-4xl mx-auto">
+				<h2 class="text-3xl font-bold mb-4">Certificates</h2>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+					<div class="shadow-lg p-4 bg-white">
+						<img
+							src="assets/image/serf1.png"
+							alt="Certificate 1"
+							class="mb-3"
+						/>
+						<p>Participated in ASII Webinar "Penelitian dalam Bidang Sistem Informasi Keperilakuan"</p>
+					</div>
+					<div class="shadow-lg p-4 bg-white">
+						<img
+							src="assets/image/serf2.png"
+							alt="Certificate 2"
+							class="mb-3"
+						/>
+						<p>Participated in Grand Falcon Talkshow "Technology Development to Drive Information System Advancement"</p>
+					</div>
+                    <div class="shadow-lg p-4 bg-white">
+						<img
+							src="assets/image/serf3.jpg"
+							alt="Certificate 3"
+							class="mb-3"
+						/>
+						<p>Participated in D.E.D. 2023 "Modernizing Data Science with Big Data using Cloud Computing Choice"</p>
+					</div>
+                    <div class="shadow-lg p-4 bg-white">
+						<img
+							src="assets/image/serf4.jpg"
+							alt="Certificate 4"
+							class="mb-3"
+						/>
+						<p>Participated in Competition Training in The 17th IMOTION FEB University of Indonesia</p>
+					</div>
+                    <div class="shadow-lg p-4 bg-white">
+						<img
+							src="assets/image/serf5.jpeg"
+							alt="Certificate 5"
+							class="mb-3"
+						/>
+						<p>Participated in Welcoming Party Information Systems 2022 "Unity Through Divergence"</p>
+					</div>
+                    <div class="shadow-lg p-4 bg-white">
+						<img
+							src="assets/image/serf6.jpg"
+							alt="Certificate 6"
+							class="mb-3"
+						/>
+						<p>Participated in Virtual Campus Visit UMN 2021 "Create Innovation Within The Limitation"</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Us -->
+		<section id="contactus" class="py-12 px-4 bg-gray-100">
+			<div class="max-w-4xl mx-auto">
+				<h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+				<form>
+					<!-- Form fields -->
+				</form>
+			</div>
+		</section>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          </svg>
+          
+	</body>
+</html>
